@@ -3,7 +3,7 @@ import {TodoProvider} from './contexts'
 import './App.css'
 import TodoForm from './components/TodoForm'
 import TodoItem from './components/TodoItem'
-import backgroundImage from './assets/bg2.jpg'
+import backgroundImage from './assets/bg1.jpg'
 
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
     <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>
       <div className="bg-[#172842] min-h-screen py-8"  style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
-                <h1 className="text-2xl font-bold text-center mb-8 mt-2 bg-pink-500 bg-opacity-50 text-white p-4">
+                <h1 className="text-2xl font-bold text-center mb-8 mt-2 bg-gray-500 bg-opacity-50 text-white p-4">
                 MANAGE YOUR TODOS
                 </h1>
 
